@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 适配移动端 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>官方链接导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            padding: 30px 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .container {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .link-item {
+            display: block;
+            padding: 14px 20px;
+            margin: 12px 0;
+            background-color: #eef2f7;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #2980b9;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        .link-item:hover {
+            background-color: #d6e4f0;
+            transform: translateX(5px);
+        }
+        .tip-box {
+            margin-top: 35px;
+            padding: 18px;
+            background-color: #fff4e5;
+            border-left: 5px solid #ffb74d;
+            border-radius: 6px;
+            color: #5d4037;
+            line-height: 1.6;
+        }
+        .tip-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #e65100;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>官方链接导航</h1>
+
+        <!-- 导航链接 -->
+        <a href="http://gsorg.tangentlab.cn" class="link-item" target="_blank">1. G7组织（GSORG）官网</a>
+        <a href="http://t.owo.vin" class="link-item" target="_blank">2. 正切实验室（TangentLab）官网</a>
+        <a href="http://d.peiwo.pw" class="link-item" target="_blank">3. 陪我（Peiwo）社区官网（开发中）</a>
+        <a href="mailto:tangent2533@gmail.com" class="link-item">4. 官方邮箱：tangent2533@gmail.com</a>
+        <div class="link-item">5. 官方微信：gsorg_101724</div>
+        <div class="link-item">6. 官方QQ群号：953663039</div>
+
+        <!-- 安全提示 -->
+        <div class="tip-box">
+            <div class="tip-title">⚠️ 安全提示</div>
+            如果浏览器提示网站不安全，是因为开发者穷困潦倒，以前未购买HTTPS证书（现在已经有证书了，应该不会有此类问题再发生），通信不加密，<strong>并非网站本身存在安全问题，完全可以放心访问</strong>。<br>
+            但正因此，在网站提示不安全时，请不要在此类页面输入密码、手机号等敏感个人信息！
+        </div>
+    </div>
+</body>
+</html>
